@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #78A1BB;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 20px 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    background-color: #283044;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #353F5A;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
